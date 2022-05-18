@@ -1,0 +1,91 @@
+h1 {
+  display: block;
+  text-align: center;
+}
+
+a {
+  display: block;
+  font-size: 20px;
+  margin: 5px auto 10px;
+  text-align: center;
+}
+
+.tabla_productos {
+  margin: 0 auto;
+  max-width: 720px;
+  min-width: 250px;
+  width: 100%;
+  text-align: center;
+}
+
+.form {
+  margin: 0 auto;
+  max-width: 700px;
+  min-width: 300px;
+  width: 100%;
+  text-align: center;
+}
+
+.form label {
+  display: block;
+  margin-top: 10px;
+}
+
+.form input {
+  display: block;
+  margin: 0 auto;
+}
+
+button {
+  margin-top: 15px;
+}
+
+.no_hay_productos {
+  display: block;
+  font-size: 25px;
+  color: #ff0000;
+  text-align: center;
+}
+
+#chat {
+  margin: 10px auto;
+  text-align: center;
+  width: 100%;
+}
+
+#chat_messages {
+  border-color: #666666;
+  border-style: solid;
+  max-height: 300px;
+  min-height: 300px;
+  overflow-y: scroll;
+  text-align: left;
+}
+
+#chat_messages img {
+  width: 36px;
+  height: 36px;
+}
+
+.chat_message_mail,
+.chat_message_date,
+.chat_message_message {
+  display: inline-block;
+  margin-left: 5px;
+}
+
+.chat_message_mail {
+  color: blue;
+  font-style: bold;
+}
+.chat_message_date {
+  color: brown;
+}
+.chat_message_message {
+  color: green;
+  font-style: italic;
+}
+
+.normalizacion_etiqueta {
+  font-size: 20px;
+}

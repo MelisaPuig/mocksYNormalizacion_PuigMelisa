@@ -1,0 +1,22 @@
+{{#if hayProductos}}
+  <table class="tabla_productos" border="solid">
+    <tr>
+      <th>T&iacute;tulo</th>
+      <th>Precio</th>
+      <th>Thumbnail</th>
+    </tr>
+    {{#each productos}}
+      <tr>
+        <td>{{this.title}}</td>
+        <td>${{this.price}}</td>
+        <td><img
+            src="{{this.thumbnail}}"
+            alt="{{this.title}}"
+            style="height: auto; width: 100px;"
+          /></td>
+      </tr>
+    {{/each}}
+  </table>
+{{else}}
+  <div class="no_hay_productos">No hay productos.</div>
+{{/if}}
